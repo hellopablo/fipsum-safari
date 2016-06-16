@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Pablo de la Peña</string>
+	<key>Builder Version</key>
+	<string>11601.6.17</string>
+	<key>CFBundleDisplayName</key>
+	<string>Fipsum</string>
+	<key>CFBundleIdentifier</key>
+	<string>uk.co.hellopablo.fipsum</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string></string>
+				<key>Identifier</key>
+				<string>fipsumize</string>
+				<key>Title</key>
+				<string>Fipsumize</string>
+			</dict>
+		</array>
+		<key>Global Page</key>
+		<string>global.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>fipsum.js</string>
+				<string>visibility.js</string>
+				<string>injected.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Resurrecting (via impersonation) Dustin Senos’ wonderful plugin for filling Safari fields with _correct_ dummy data.</string>
+	<key>DeveloperIdentifier</key>
+	<string>4SV986BCM3</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://hellopablo.github.io/fipsum-safari</string>
+</dict>
+</plist>
